@@ -14,20 +14,20 @@
   <!-- 主要圖片 -->
     <image:image>
       <image:loc>https://m250622.github.io/Azi-site/channel_icon.png</image:loc>
-      <image:title>阿籽Azi channel icon</image:title>
-      <image:caption>阿籽Azi channel icon</image:caption>
+      <image:title>阿紫Azi channel icon</image:title>
+      <image:caption>阿紫Azi channel icon</image:caption>
     </image:image>
 
     <image:image>
       <image:loc>https://m250622.github.io/Azi-site/channel_icon_192.png</image:loc>
-      <image:title>阿籽Azi 頻道圖 192*192</image:title>
-      <image:caption>阿籽Azi 頻道圖 192*192</image:caption>
+      <image:title>阿紫Azi 頻道圖 192*192</image:title>
+      <image:caption>阿紫Azi 頻道圖 192*192</image:caption>
     </image:image>
 
     <image:image>
       <image:loc>https://m250622.github.io/Azi-site/channel_icon_512.png</image:loc>
-      <image:title>阿籽Azi 頻道圖 512*512</image:title>
-      <image:caption>阿籽Azi 頻道圖 512*512</image:caption>
+      <image:title>阿紫Azi 頻道圖 512*512</image:title>
+      <image:caption>阿紫Azi 頻道圖 512*512</image:caption>
     </image:image>
 
 
