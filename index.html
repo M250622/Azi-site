@@ -3,48 +3,169 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Pokémon Azi 頻道總覽</title>
-  <link rel="stylesheet" href="style.css">
+  <title>阿籽 Azi 官方網站</title>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Noto Sans TC', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(to bottom, #f0f8ff, #ffffff);
+      color: #333;
+    }
+    header {
+      background: #d62828;
+      color: white;
+      padding: 2rem 1rem;
+      text-align: center;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      position: relative;
+    }
+    header h1 {
+      margin: 0 0 0.5rem;
+      font-size: 2.5rem;
+    }
+    header p {
+      font-size: 1.1rem;
+    }
+    .cta {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 0.6rem 1.2rem;
+      background-color: #ffcc00;
+      color: #000;
+      font-weight: bold;
+      text-decoration: none;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    }
+    main {
+      padding: 2rem 1rem;
+      max-width: 960px;
+      margin: auto;
+    }
+    .card {
+      background: white;
+      border-radius: 12px;
+      padding: 1.5rem;
+      margin-bottom: 2rem;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.06);
+    }
+    .card h2 {
+      margin-top: 0;
+      color: #d62828;
+    }
+    .card ul {
+      list-style: none;
+      padding-left: 1rem;
+    }
+    .card ul li::before {
+      content: "\25B6 ";
+      color: #d62828;
+    }
+    a {
+      color: #0056b3;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      color: #777;
+      background: #f4f4f4;
+    }
+    .language-switcher {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      z-index: 999;
+      font-size: 1.1rem;
+    }
+    .language-switcher label {
+      font-size: 1.1rem;
+      margin-right: 0.4rem;
+    }
+    .language-switcher select {
+      padding: 0.4rem;
+      border-radius: 6px;
+      border: 1px solid #ccc;
+      font-size: 1.1rem;
+    }
+    .lang {
+      display: none;
+      opacity: 0;
+      transition: opacity 0.5s ease-in-out;
+    }
+    .lang.show {
+      display: inline;
+      opacity: 1;
+    }
+  </style>
 </head>
 <body>
+  <div class="language-switcher">
+    <label for="lang">🌐 Language:</label>
+    <select id="lang" onchange="changeLanguage(this.value)">
+      <option value="zh-Hant">繁體中文</option>
+      <option value="en">English</option>
+    </select>
+  </div>
+
   <header>
-    <h1>🎮 Pokémon Azi 頻道導覽</h1>
-    <p>探索寶可夢 TCG Pocket 對戰策略、遊戲彩蛋與異常機制</p>
-    <a class="cta" href="https://www.youtube.com/@pokemonAzi" target="_blank">🔴 訂閱 Pokémon Azi YouTube 頻道</a>
+    <h1><span class="lang zh-Hant show">🎮 阿籽 Azi 頻道總覽</span><span class="lang en">🎮 Azi Channel Overview</span></h1>
+    <p><span class="lang zh-Hant show">這是一個Pokemon的探索台，也會探索其他的遊戲。偶爾開台玩玩不同的或喜歡的遊戲</span><span class="lang en">This is a Pokémon exploration channel, also exploring other games. Occasional livestreams with favorite titles!</span></p>
+    <a class="cta" href="https://www.youtube.com/@pokemonAzi" target="_blank">
+      <span class="lang zh-Hant show">🔴 立即訂閱 阿籽 Azi</span>
+      <span class="lang en">🔴 Subscribe to Azi Now</span>
+    </a>
   </header>
 
   <main>
     <section class="card">
-      <h2>🎴 頻道內容分類</h2>
+      <h2><span class="lang zh-Hant show">🎴 頻道主題分類</span><span class="lang en">🎴 Channel Topics</span></h2>
       <ul>
-        <li><strong>TCG Pocket 卡組解析：</strong> 每週更新的卡組推薦與實戰分析</li>
-        <li><strong>遊戲異常機制（Glitches）：</strong> 各版本的遊戲彩蛋與邏輯異常研究</li>
-        <li><strong>改版與 DLC 解析：</strong> Pokémon 系列最新更新、改動內容講解</li>
-        <li><strong>Meta 戰術思維：</strong> 對戰趨勢與賽場卡組環境分析</li>
+        <li><span class="lang zh-Hant show"><strong>卡組解析：</strong> 每週主流卡組、控制流與快攻教學</span><span class="lang en"><strong>Deck Analysis:</strong> Weekly meta decks, control and aggro strategy guides</span></li>
+        <li><span class="lang zh-Hant show"><strong>機制揭露：</strong> 遊戲內最新機制與趣味現象分享</span><span class="lang en"><strong>Mechanic Reveals:</strong> Latest game systems and quirks</span></li>
+        <li><span class="lang zh-Hant show"><strong>資訊更新：</strong> 資訊爆料、彩蛋精華追蹤</span><span class="lang en"><strong>Update Insights:</strong> Info leaks and Easter egg features</span></li>
+        <li><span class="lang zh-Hant show"><strong>Meta 環境解讀：</strong> 排位趨勢分析與戰術演化解說</span><span class="lang en"><strong>Meta Insights:</strong> Ranked meta trends and tactical evolutions</span></li>
       </ul>
     </section>
 
     <section class="card">
-      <h2>🔥 精選影片推薦</h2>
+      <h2><span class="lang zh-Hant show">🔥 精選影片清單推薦</span><span class="lang en">🔥 Recommended Playlists</span></h2>
+      <h4>👉 PTCG Pocket</h4>
       <ul>
-        <li><a href="https://www.youtube.com/watch?v=xxxxx" target="_blank">【TCG Pocket】大比鳥快龍控制流完整解析</a></li>
-        <li><a href="https://www.youtube.com/watch?v=xxxxx" target="_blank">【Gen 1】Useless Glitches 完整整理</a></li>
-        <li><a href="https://www.youtube.com/watch?v=xxxxx" target="_blank">【Z-A】改版劇情與DLC彩蛋總覽</a></li>
+        <li><a href="https://youtube.com/playlist?list=PLUcauzDLEQFaAiCLzcnrmslu2V5Ykq61u" target="_blank">卡包資訊 / Card Info</a></li>
+        <li><a href="https://youtube.com/playlist?list=PLUcauzDLEQFZ-RHGtgwCYaz1SaoBVg9cW" target="_blank">級別排位賽 / Ranked Ladder</a></li>
+        <li><a href="https://youtube.com/playlist?list=PLUcauzDLEQFaUkulhWWh32flAeoEiM49W" target="_blank">隨機對戰 / Casual Battles</a></li>
+        <li><a href="https://youtube.com/playlist?list=PLUcauzDLEQFaiBbK_iBjeyqHrAzZ1ZyYm" target="_blank">多元牌組 / Diverse Decks</a></li>
       </ul>
-    </section>
-
-    <section class="card">
-      <h2>📂 外部連結與資源</h2>
+      <h4>👉 Pokémon Go</h4>
       <ul>
-        <li><a href="https://www.youtube.com/@pokemonAzi" target="_blank">YouTube 頻道</a></li>
-        <li><a href="llms.txt" target="_blank">AI 專用導覽 llms.txt</a></li>
-        <li><a href="https://m250622.github.io/Azi-site/" target="_blank">GitHub Pages 首頁</a></li>
+        <li><a href="https://youtube.com/playlist?list=PLUcauzDLEQFY9BeoD1OfusqJo9fWLci8k" target="_blank">Go對戰聯盟 / Go Battle League</a></li>
       </ul>
     </section>
   </main>
 
   <footer>
-    <p>© 2025 Pokémon Azi | Powered by GitHub Pages</p>
+    <p><span class="lang zh-Hant show">© 2025 阿籽 Azi 頻道｜設計 · 部署</span><span class="lang en">© 2025 Azi Channel | Crafted with care & design</span></p>
   </footer>
+
+  <script>
+    function changeLanguage(lang) {
+      document.querySelectorAll('.lang').forEach(el => el.classList.remove('show'));
+      document.querySelectorAll(`.lang.${lang}`).forEach(el => el.classList.add('show'));
+      location.hash = lang;
+    }
+    window.addEventListener("load", () => {
+      const hashLang = location.hash.replace("#", "");
+      const lang = ["zh-Hant", "en"].includes(hashLang) ? hashLang : "zh-Hant";
+      document.getElementById("lang").value = lang;
+      changeLanguage(lang);
+    });
+  </script>
 </body>
 </html>
