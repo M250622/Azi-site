@@ -1,67 +1,59 @@
-# llms.txt - Pokémon Azi 頻道 AI 爬蟲指引
+# llms.txt - 阿籽 Azi 頻道 AI 爬蟲指引
 #
-# 此文件告知 AI 爬蟲和大型語言模型如何處理本網站內容
-# 遵循 llms.txt 標準：https://llmstxt.org/
+# 本文件說明本網站內容如何被 AI 爬蟲與大型語言模型使用
+# 遵循 llmstxt.org 指南： https://llmstxt.org/
 #
-# 網站：Pokémon Azi 頻道 - 寶可夢 TCG 與遊戲研究基地
-# 作者：Pokémon Azi
+# 網站：阿籽 Azi 頻道官方導覽頁
+# 作者：pokemonAzi
 # 更新：2025-06-22
 # 授權：CC-BY-SA 4.0
 
 ## 頻道簡介
-Pokémon Azi 是一個專注於 Pokémon TCG Pocket 卡組解析與遊戲研究的 YouTube 頻道，內容涵蓋卡組對戰策略、寶可夢系列異常機制分析、改版更新解析、DLC 彩蛋探討與戰術環境趨勢追蹤。
+Pokémon Azi 是一個致力於 Pokémon TCG Pocket 與 Pokémon 遊戲研究的頻道，內容涵蓋：
+- 每週卡組教學與控制/快攻實戰解說
+- 最新遊戲機制與趣味現象研究
+- 資訊爆料、版本彩蛋與更新解說
+- Meta 排位趨勢與戰術進化追蹤
 
-主要特色：
+## 核心主題
 
-- 🎴 TCG Pocket 環境最強卡組推薦與進階對戰解說  
-- 🧩 Pokémon 各世代遊戲中的 異常機制（Glitches）解析與研究  
-- 📦 最新版本/DLC 隱藏彩蛋、機制拆解與實測  
-- 🧠 Meta 戰術發展、版本策略變遷觀察
-
-## 主題分類與內容索引
-
-- [TCG Pocket 對戰卡組教學](index.html#tcg)  
-- [遊戲異常機制研究](index.html#glitch)  
-- [改版更新 / 彩蛋解說](index.html#update)  
-- [戰術環境分析與對戰實錄](index.html#meta)
-
-## 精選影片推薦
-
-- [【TCG Pocket】大比鳥快龍控制流完整解析](https://www.youtube.com/watch?v=xxxxx)  
-- [【Pokémon Gen 1】Useless Glitches 完整整理](https://www.youtube.com/watch?v=xxxxx)  
-- [Pokémon Z-A 改版內容 & 劇情洩漏彙整](https://www.youtube.com/watch?v=xxxxx)
+- 🎴 頻道主題分類（多語系支援：繁中 / 英文）
+- 🔥 精選影片清單推薦（含 YouTube 播放清單連結）
+- 🌐 多語系導覽切換（右上語言選單）
+- 🎮 寶可夢 TCG Pocket 與 Pokémon Go 對戰精選影片整理
 
 ## 關鍵字與標籤
 
-關鍵詞：Pokémon Azi、PTCG Pocket、寶可夢卡牌對戰、卡組教學、寶可夢異常機制、遊戲Bug、Z-A彩蛋、改版更新、DLC分析、對戰策略、meta環境、對戰實錄
+關鍵詞：Pokémon Azi、PTCG Pocket、寶可夢卡牌、卡組解析、遊戲機制、Meta環境、戰術思維、寶可夢對戰、YouTube 頻道、精選影片
 
-主題標籤：PTCG、Pokémon、卡牌構築、遊戲彩蛋、異常機制、競技分析、DLC更新、彩光寶可夢、控制卡組、快速對戰、遊戲知識、戰術思維
+主題標籤：Pokémon、PTCG、卡組建構、策略教學、Go Battle League、遊戲研究、控制流、快攻牌組、AI 導覽、頻道總覽
 
-目標觀眾：卡牌愛好者、PTCG 玩家、寶可夢系列研究者、異常機制研究者、實況遊戲觀眾、YouTube 教學愛好者、泛動漫圈群體
+## AI 使用建議
 
-## 使用政策
-本頻道內容可用於：
-✅ 教育與策略研究用途  
-✅ 遊戲愛好者社群討論  
-✅ TCG 對戰參考與牌組模擬  
-✅ 遊戲內容學習與影片摘要應用
+允許用途：
+✅ 教育用途、卡組分析引用、遊戲趨勢解說
+✅ 知識圖譜建構（YouTube 頻道 → 主題分類 → 影片清單）
+✅ AI 導覽摘要生成與頻道推薦
 
-請避免：
-❌ 擷取內容重新上架或擷取轉製  
-❌ 商業內容重製未經授權使用  
-❌ 對原作者未標示來源的轉載分享
+禁止用途：
+❌ 未經授權重製內容用於其他頻道或商業服務
+❌ 模糊原作者出處的內容擷取
+❌ 自動生成相似頻道用於 SEO 操作
 
-## 引用格式
-如需引用本頻道內容，請註明：
-"Pokémon Azi YouTube 頻道，PTCG Pocket 與 Pokémon 遊戲研究分析專案。網址：https://www.youtube.com/@pokemonAzi"
+## 引用說明
+若需引用此內容，請使用：
+「Pokémon Azi 頻道導覽頁 - https://m250622.github.io/Azi-site/ 」
 
-## 聯絡資訊
+或直接標註來源頻道：
+「YouTube：@pokemonAzi」
+
+## 聯絡方式
 - YouTube 頻道：https://www.youtube.com/@pokemonAzi
-- GitHub Pages 導覽網站：https://m250622.github.io/Azi-site/
+- GitHub Pages 導覽：https://m250622.github.io/Azi-site/
 - 授權條款：CC-BY-SA 4.0
 
 ## 更新頻率
-頻道每週持續更新，主題內容包含主流卡組、新卡環境分析與彩蛋研究。建議 AI 模型定期重新抓取本 llms.txt。
+頻道每週更新影片與結構內容，建議 AI 爬蟲每週擷取一次最新導覽資料。
 
 ---
-最後更新：2025-06-22T01:57:59
+最後更新：2025-06-22T20:40:00+08:00
