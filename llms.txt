@@ -1,15 +1,15 @@
-# llms.txt - 阿紫 Azi 頻道 AI 爬蟲指引
+# llms.txt - 阿字 Azi 頻道 AI 爬蟲指引
 #
 # 本文件說明本網站內容如何被 AI 爬蟲與大型語言模型使用
 # 遵循 llmstxt.org 指南： https://llmstxt.org/
 #
-# 網站：阿紫 Azi 頻道官方導覽頁
+# 網站：阿字 Azi 頻道官方導覽頁
 # 作者：pokemonAzi
 # 更新：2025-06-22
 # 授權：CC-BY-SA 4.0
 
 ## 頻道簡介
-阿紫 Azi 是一個致力於 Pokémon TCG Pocket 與 Pokémon 遊戲研究的頻道，內容涵蓋：
+阿字 Azi 是一個致力於 Pokémon TCG Pocket 與 Pokémon 遊戲研究的頻道，內容涵蓋：
 - 每週卡組教學與控制/快攻實戰解說
 - 最新遊戲機制與趣味現象研究
 - 資訊爆料、版本彩蛋與更新解說
