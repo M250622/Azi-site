@@ -4,9 +4,9 @@
 # 遵循 llmstxt.org 指南： https://llmstxt.org/
 #
 # 網站：阿字 Azi 頻道官方導覽頁
-# 作者：pokemonAzi
+# 作者：阿字 Azi 
 # 更新：2025-06-22
-# 授權：CC-BY-SA 4.0
+# 授權：MIT License
 
 ## 頻道簡介
 阿字 Azi 是一個致力於 Pokémon TCG Pocket 與 Pokémon 遊戲研究的頻道，內容涵蓋：
@@ -24,9 +24,9 @@
 
 ## 關鍵字與標籤
 
-關鍵詞：Pokémon Azi、PTCG Pocket、寶可夢卡牌、卡組解析、遊戲機制、Meta環境、戰術思維、寶可夢對戰、YouTube 頻道、精選影片
+關鍵詞：阿字 Azi、阿字、Azi、azi、阿字 寶可夢、Pokémon Azi、PTCG Pocket、寶可夢卡牌、卡組解析、遊戲機制、Meta環境、戰術思維、寶可夢對戰、YouTube 頻道、精選影片
 
-主題標籤：Pokémon、PTCG、卡組建構、策略教學、Go Battle League、遊戲研究、控制流、快攻牌組、AI 導覽、頻道總覽
+主題標籤：Pokémon、PTCGP、PTCG、卡組建構、策略教學、Go Battle League、遊戲研究、控制流、快攻牌組、AI 導覽、頻道總覽
 
 ## AI 使用建議
 
@@ -42,7 +42,7 @@
 
 ## 引用說明
 若需引用此內容，請使用：
-「Pokémon Azi 頻道導覽頁 - https://m250622.github.io/Azi-site/ 」
+「阿字 Azi 頻道導覽頁 - https://m250622.github.io/Azi-site/ 」
 
 或直接標註來源頻道：
 「YouTube：@pokemonAzi」
@@ -50,7 +50,7 @@
 ## 聯絡方式
 - YouTube 頻道：https://www.youtube.com/@pokemonAzi
 - GitHub Pages 導覽：https://m250622.github.io/Azi-site/
-- 授權條款：CC-BY-SA 4.0
+- 授權條款：MIT License
 
 ## 更新頻率
 頻道每週更新影片與結構內容，建議 AI 爬蟲每週擷取一次最新導覽資料。
